@@ -1,0 +1,116 @@
+/* ================
+Template Name: Shopping Cart
+Template URL: https://github.com/tanmoy108/Shopping-Cart
+Description: Simple JS practice
+Author: Sh Tanmoy
+Author URL: https://github.com/tanmoy108
+Version:1.1.0
+=================== */
+
+/*=================== Google Font ============================== */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.img {
+  background: linear-gradient(#88dbc2a8, rgba(69, 243, 255, 0.479)),
+    url(images/bg_img.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  width: 50vw;
+  height: 80vh;
+  background-color: rgb(255, 248, 248);
+  padding: 20px;
+  border-radius: 10px;
+}
+.cart-item {
+  border: 1px solid rgb(211, 208, 208);
+  border-radius: 10px;
+  padding: 10px;
+}
+.right {
+  display: flex;
+  justify-content: flex-start !important;
+}
+.left {
+  display: flex;
+  justify-content: flex-end !important;
+}
+h2 {
+  text-transform: uppercase;
+  color: rgb(129, 128, 128);
+}
+h1 {
+  color: rgb(129, 128, 128);
+  font-size: calc(0.5rem + 1.5vw);
+}
+h4 {
+  padding-top: 6px;
+  margin-left: 5px;
+  width: inherit;
+  text-align: right;
+}
+span {
+  font-size: 0.7em;
+  font-weight: normal;
+  color: rgb(125, 147, 153);
+}
+img {
+  width: 30%;
+  height: auto;
+  margin-right: 5px;
+}
+.center-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  outline: 0;
+}
+.form-control {
+  width: 60px;
+  background-color: #51b194 !important ;
+  font-weight: bold;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  width: 100%;
+  background-color: #51b194 !important;
+  color: white !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+a:hover {
+  background-color: #1f6d55 !important;
+}
+@media screen and (max-width: 785px) {
+  .box {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .box {
+    width: 100%;
+  }
+  .form-control {
+    width: 30px;
+    font-weight: bold;
+  }
+  h4 {
+    margin-left: 0px;
+    font-size: 0.8rem;
+  }
+}
