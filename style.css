@@ -80,6 +80,9 @@ button {
   background-color: #51b194 !important ;
   font-weight: bold;
 }
+input#phone-number,#case-number {
+  padding: 0;
+}
 .total {
   display: flex;
   justify-content: space-between;
